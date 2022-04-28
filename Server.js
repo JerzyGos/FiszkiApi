@@ -36,7 +36,7 @@ app.post("/", function(req, res) {
     res.redirect('/');
 })
 
-app.listen(5500, function() {
+app.listen(443, function() {
     console.log("server is runing");
 })
 
